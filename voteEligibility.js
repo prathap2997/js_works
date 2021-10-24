@@ -11,3 +11,17 @@ function canvote(age)
     }
     return result;
 }
+
+function checkrank(mark)
+{
+    var result = "" ;
+    if (mark>=35)
+    {
+        result = "pass";
+    }
+    else
+    {
+        result = "fail";
+    }
+    return result;
+}
