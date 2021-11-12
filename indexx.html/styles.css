@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(f.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -31,6 +31,7 @@ nav{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
+    font-weight: bolder;
 }
 .nav-links ul li ::after{
     content: '';
@@ -46,12 +47,14 @@ nav{
 }
 .text-box{
     width: 90%;
-    color: white;
+    color: rgba(63, 125, 153, 0.63);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: rgb(246, 250, 253);
+    border-color: black;
 }
 .text-box h1{
     font-size: 62px;
@@ -64,13 +67,15 @@ text-box p{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: rgb(17, 16, 16);
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 15px;
     background: transparent;
     position: relative;
     cursor: pointer;
+    font-weight: bolder;
+    border-color: black;
 }
 .hero-btn:hover{
     border: 1px solid #0872d4;
@@ -141,14 +146,13 @@ h3{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s
-
 }
 .four:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
 }
   
 .ctn{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(banner2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(e.jpg);
     background-position: 500px;
     background-size:cover;
     border-radius: 50px;
@@ -160,13 +164,58 @@ h3{
     position: absolute;
     color:#0872d4;
     padding-top: 100px 50px;
-
 }
 .ctn h1{
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
 }
+.footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    top: 600%;
+    bottom: 40%;
+    right:50%;
+    position: absolute;
+    color:#0872d4;
+    padding-top: 100px;
+    font-weight: bolder;
+}
+.tab{
+    font-weight: bolder;
+    font-style: normal;
+    cursor: pointer;
+}
+.icons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    top: 550%;
+    bottom: 550%;
+    left:50%;
+    position: absolute;
+    color:#0872d4;
+    padding-top: 100px;
+    
+}
+.table{
+    font-weight: lighter;
+}
+.terms{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    top: 550%;
+    bottom: 550%;
+    left:80%;
+    position: absolute;
+    color:#0872d4;
+    padding-top: 100px;
+    
+
+}
+
     
 
 
